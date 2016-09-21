@@ -8,6 +8,7 @@ www.dannyarango.com/tictactoe
 
 
 ###Overview of Project
+
 A simple Tic-Tac-Toe game in which you can play either against a friend or against the computer.  I used a miniMax function for the computer's AI and then manipulated it so that you could play against three levels of "Intelligence."  The Two Player side of the app is built completely using vanilla JavaScript and the AI half is built using jQuery!  
 
 
