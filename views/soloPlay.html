@@ -1,0 +1,48 @@
+<div class='control'>
+    <!-- div.intial displays the starting controls -->
+    <div class='intial'>
+        <div class='difficulty'>
+            <span class='level not-selected' id="blind">Durr..</span>
+            <span class='level not-selected' id="novice">Novice</span>
+            <span class='level not-selected' id="master">Master</span>
+        </div>
+
+        <div class='start'>Start</div>
+    </div>
+
+    <!-- div.ingame displays in-game messages and controls -->
+    <div class='ingame' id="human">
+        <button class="retry" onclick="location.reload();">Retry!</button>
+        <br>
+        It's your turn ...
+        <img src="images/robot.png" id="robot" class="robot" />
+        <br>
+    </div>
+    <div class='ingame' id="won"><button class="retry" onclick="location.reload();">Retry!</button>
+        <br><div>You won!</div></div>
+    <div class='ingame' id="lost"><button class="retry" onclick="location.reload();">Retry!</button>
+        <br><div>Computer Won!</div></div>
+    <div class='ingame' id="draw"><button class="retry" onclick="location.reload();">Retry!</button>
+        <br><div>It's a Draw!</div></div>
+    <br>
+</div>
+<br>
+<div class = 'main-container'>
+    <div id="game-wrapper">
+        <div class="board-row-1 board-row">
+            <button class="cell" id="0">-</button>
+            <button class="cell" id="1">-</button>
+            <button class="cell" id="2">-</button>
+        </div>
+        <div class="board-row-2 board-row">
+            <button class="cell" id="3">-</button>
+            <button class="cell" id="4">-</button>
+            <button class="cell" id="5">-</button>
+        </div>
+        <div class="board-row-3 board-row">
+            <button class="cell" id="6">-</button>
+            <button class="cell" id="7">-</button>
+            <button class="cell" id="8">-</button>
+        </div>
+    </div>
+</div>

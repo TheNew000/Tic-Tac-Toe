@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="tttApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular/angular.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="js/angular-cookies.min.js"></script>
+    <script type="text/javascript" src="js/tttController.js"></script>
+    <script type="text/javascript" src="js/duoPlayCtrl.js"></script>
+    <script type="text/javascript" src="js/soloCtrl.js"></script>
+    <script type="text/javascript" src="Factories/CompMoves.js"></script>
+    <script type="text/javascript" src="Factories/CompPlayer.js"></script>
+    <script type="text/javascript" src="Factories/Game.js"></script>
+    <script type="text/javascript" src="Factories/State.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body ng-controller="tttController">
+
+   <div id="title-wrapper">
+        <button class="btn btn1" ng-click="whichGame('/soloPlay')">
+            <i class="fa fa-laptop fa-4x" aria-hidden="true"></i>
+            <div>1 Player</div>
+        </button>
+        <h1>TIC TAC TOE</h1>
+        <button class="btn btn2" ng-click="whichGame('/duoPlay')">
+            <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+            <div>2 Player</div>
+        </button>
+    </div>
+    <section ng-view></section>
+
+</body>
+</html>

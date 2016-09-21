@@ -1,0 +1,163 @@
+/* line 1, ../compass/sass/style.scss */
+body {
+  background-color: black;
+  color: #cefa87;
+}
+
+/* line 6, ../compass/sass/style.scss */
+#title-wrapper {
+  padding: 30px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 640px;
+  min-width: 320px;
+  font-size: 48px;
+}
+
+/* line 15, ../compass/sass/style.scss */
+#game-wrapper, #game2-wrapper {
+  background-color: #3eb0f7;
+  max-width: 640px;
+  min-width: 320px;
+  width: 75%;
+  margin: auto;
+}
+
+/* line 23, ../compass/sass/style.scss */
+.board-row {
+  display: block;
+  padding: 0px;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 5%;
+}
+
+/* line 31, ../compass/sass/style.scss */
+.box, .cell {
+  width: 30%;
+  background-color: #fab387;
+  border: none;
+  margin-left: 5%;
+  padding: 30px 0;
+  float: left;
+  font-weight: bold;
+  font-size: 125px;
+  cursor: pointer;
+  color: #cefa87;
+}
+
+/* line 44, ../compass/sass/style.scss */
+.board-row button:first-child {
+  margin-left: 0;
+}
+
+/* line 48, ../compass/sass/style.scss */
+.winner {
+  background-color: #8795fa;
+}
+
+/* NEW CSS */
+/* line 53, ../compass/sass/style.scss */
+.control {
+  font-family: "Arial Narrow";
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* line 61, ../compass/sass/style.scss */
+.level {
+  margin: 0 15px;
+  color: lightskyblue;
+  cursor: pointer;
+}
+
+/* line 67, ../compass/sass/style.scss */
+.not-selected {
+  opacity: 0.5;
+}
+
+/* line 71, ../compass/sass/style.scss */
+.not-selected:hover {
+  opacity: 1;
+}
+
+/* line 75, ../compass/sass/style.scss */
+.start, .retry {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: #87CEFA;
+  line-height: 100px;
+  text-align: center;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-width: 0px;
+  color: #cefa87;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+/* line 93, ../compass/sass/style.scss */
+.btn {
+  line-height: 0px;
+  font-size: 40%;
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: #87CEFA;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-width: 0px;
+  color: #cefa87;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+/* line 110, ../compass/sass/style.scss */
+h1 {
+  display: inline-block;
+}
+
+/* line 114, ../compass/sass/style.scss */
+.fa-users {
+  padding-bottom: 14px;
+}
+
+/* line 118, ../compass/sass/style.scss */
+.btn1 {
+  padding-bottom: 16px;
+  text-align: center;
+  padding-left: 9px;
+}
+
+/* line 124, ../compass/sass/style.scss */
+.retry {
+  line-height: 0px;
+  font-size: 75%;
+}
+
+/* line 129, ../compass/sass/style.scss */
+.start:hover, .retry:hover, .btn:hover {
+  opacity: 1;
+}
+
+/* line 133, ../compass/sass/style.scss */
+.ingame {
+  display: none;
+}
+
+/* line 137, ../compass/sass/style.scss */
+.ingame > p {
+  margin: 0px;
+}
+
+/* line 141, ../compass/sass/style.scss */
+.robot {
+  opacity: 0.5;
+}

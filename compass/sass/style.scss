@@ -1,0 +1,144 @@
+body{
+    background-color: black;
+    color:  rgb(206,250,135);
+}
+
+#title-wrapper{
+    padding: 30px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 640px;
+    min-width: 320px;
+    font-size: 48px;
+}
+
+#game-wrapper, #game2-wrapper{
+    background-color: rgb(62,176,247);
+    max-width: 640px;
+    min-width: 320px;
+    width: 75%;
+    margin: auto;
+}
+
+.board-row{
+    display: block;
+    padding: 0px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+
+.box, .cell{
+    width: 30%;
+    background-color: rgb(250,179,135);
+    border: none;
+    margin-left: 5%;
+    padding: 30px 0;
+    float: left;
+    font-weight:  bold;
+    font-size: 125px;
+    cursor: pointer;
+    color: rgb(206,250,135);
+}
+
+.board-row button:first-child{
+    margin-left: 0;
+}
+
+.winner{
+    background-color: rgb(135,149,250);
+}
+/* NEW CSS */
+
+.control {
+    font-family: "Arial Narrow";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top:40px;
+}
+
+.level {
+    margin: 0 15px;
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+.not-selected {
+    opacity: 0.5;
+}
+
+.not-selected:hover {
+    opacity:1;
+}
+
+.start, .retry {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #87CEFA;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-width: 0px;
+    color: rgb(206,250,135);
+    margin-left: auto;
+    margin-right: auto;
+    cursor:pointer;
+    opacity:0.5;
+}
+
+.btn{
+    line-height: 0px;
+    font-size: 40%;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #87CEFA;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-width: 0px;
+    color: rgb(206,250,135);
+    cursor:pointer;
+    opacity:0.5;
+    // display:  inline-block;
+}
+
+h1{
+    display: inline-block;
+}
+
+.fa-users {
+    padding-bottom: 14px;
+}
+
+.btn1{
+    padding-bottom: 16px;
+    text-align: center;
+    padding-left: 9px;
+}
+
+.retry{
+    line-height: 0px;
+    font-size: 75%;
+}
+
+.start:hover, .retry:hover, .btn:hover {
+    opacity:1;
+}
+
+.ingame {
+    display:none;
+}
+
+.ingame > p {
+    margin:0px;
+}
+
+.robot {
+    opacity:0.5;
+}
+
