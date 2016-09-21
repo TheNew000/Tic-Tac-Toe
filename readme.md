@@ -2,7 +2,7 @@
 
 ##Angular.js, HTML, miniMax, and SASS
 
-###LINK to project
+###Live Demo:
 
 www.dannyarango.com/tictactoe
 
